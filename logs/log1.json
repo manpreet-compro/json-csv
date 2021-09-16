@@ -1,0 +1,54 @@
+{
+  "took": 1266,
+  "timed_out": false,
+  "_shards": {
+    "total": 685,
+    "successful": 685,
+    "skipped": 600,
+    "failed": 0
+  },
+  "hits": {
+    "total": 27,
+    "max_score": null,
+    "hits": [{
+      "type": "act",
+      "line_id": 1,
+      "play_name": "Henry IV",
+  
+      "speech_number": "",
+      "line_number": "",
+      "speaker": "",
+      "text_entry": "ACT I"
+    },
+    {
+      "type": "scene",
+      "line_id": 2,
+      "play_name": "Henry IV",
+      "speech_number": "",
+      "line_number": "",
+      "speaker": "",
+      "text_entry": "SCENE I.London. The palace."
+    },
+    {
+      "type": "line",
+      "line_id": 3,
+      "play_name": "Henry IV",
+      "speech_number": "",
+      "line_number": "",
+      "speaker": "",
+      "text_entry": "Enter KING HENRY"
+    }
+  ]
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "key_as_string": "2021-05-17T12:00:00.000+05:30",
+          "key": 1621233000000,
+          "doc_count": 27
+        }
+      ]
+    }
+  }
+}
